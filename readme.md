@@ -9,4 +9,4 @@ Please note that you do not need to call the grounded random walk code, NNRPT co
 3. Run the main file Lifted_R_NN_Network.py as
   python Lifted_R_NN_Network.py "path/to/input/file" "targetpredicate"
   
-  please contact Navdeep.Kaur@utdallas.edu
+  please contact me for further questions at Navdeep.Kaur@utdallas.edu
