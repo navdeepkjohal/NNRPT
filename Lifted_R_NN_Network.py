@@ -169,16 +169,16 @@ def perform_test_phase(Test_data_X,Test_data_Y,lifted_rw_to_number_test,lifted_r
 
 # MAIN CODE STARTS HERE ######################################################################################
 #basic_path              ="Old_DataSets/CoraSameVenue/5Folds/Fold1"
-basic_path              = "Old_DataSets/imdb_small/5Folds/Fold1"
-#basic_path              = sys.argv[1]
+#basic_path              = "Old_DataSets/imdb_small/5Folds/Fold1"
+basic_path              = sys.argv[1]
 train_path              = basic_path +"/Training"    
 pickle_training_path    = train_path +"/test/training.pickle"
 test_path               = basic_path +"/Test"
 pickle_test_path        = test_path+"/test/test.pickle"
 model_path              = train_path+"/best_model"
 
-#target_predicate  = sys.argv[2]
-target_predicate = "workedUnder"
+target_predicate  = sys.argv[2]
+#target_predicate = "workedUnder"
 create_pickle_file(train_path,None,target_predicate)    
 training_data_X, training_data_Y,lifted_rw_to_number_training = read_input_data(pickle_training_path) 
 
