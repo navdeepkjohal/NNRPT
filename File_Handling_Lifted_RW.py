@@ -31,18 +31,12 @@ def read_my_file(filename):
     file_content = []
     with open(filename, 'r') as file:
         lines = file.readlines()
-        last = lines[-1]
         for line in lines:
             if line.startswith("//"):
                 continue
             else:
-                if line is last:
-                    if "\n" in line:
-                        file_content.append(line[:-1])
-                    else:
-                        file_content.append(line)
-                else:
-                    file_content.append(line[:-1])
+                line = line.rstrip()
+                file_content.append(line)
     file.close()
     return file_content
 
