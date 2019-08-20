@@ -20,14 +20,11 @@ def remove_wrapper_around_grounded_random_walks(filename,numcharacters):
     
     with open(filename, 'r') as file:
         lines = file.readlines()
-        last = lines[-1]
         for line in lines:
-            if line is last:
-                new_groundings.append(line[1:numcharacters])
-            else:
-               new_groundings.append(line[1:numcharacters])
+            line = line.rstrip()
+            new_groundings.append(line[1:numcharacters])
     file.close()
-   # print(new_groundings,"\n")
+    #print(new_groundings,"\n")
     return new_groundings
 
 def read_my_file(filename):
@@ -91,7 +88,7 @@ def extract_predicates_in_order_from_random_walks(randomwalk):
     return resulting_rw[1:] 
  
 def reading_grounded_random_walks(filename):
-    RW_without_wrapper = remove_wrapper_around_grounded_random_walks(filename,-2)
+    RW_without_wrapper = remove_wrapper_around_grounded_random_walks(filename,-1)
     #print(RW_without_wrapper)
     groundedRW = create_multimap_equivalent_in_python( RW_without_wrapper, " :- ")
     return groundedRW
