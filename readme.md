@@ -1,6 +1,8 @@
 Software Requirements:
-(a) Tensorflow
+(a) Tensorflow 
+
 (b) Sparse package available here: http://sparse.pydata.org/en/latest/construct.html
+
 
 In order to run this code, you first need to generate the lifted random walks and followed by
 grounding them during roll out of proposed NNRPT network: 
