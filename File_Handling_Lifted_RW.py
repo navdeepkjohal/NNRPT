@@ -94,7 +94,7 @@ def reading_grounded_random_walks(filename):
     return groundedRW
 
 def reading_lifted_random_walks(filename):
-    RW_without_wrapper = remove_wrapper_around_grounded_random_walks(filename,-7)
+    RW_without_wrapper = remove_wrapper_around_grounded_random_walks(filename,-6)
    # print(RW_without_wrapper)
     RW_predicates=[]
     one_RW=""
