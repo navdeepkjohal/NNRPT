@@ -1,4 +1,5 @@
 Software Requirements:
+
 (a) Tensorflow 
 
 (b) Sparse package available here: http://sparse.pydata.org/en/latest/construct.html
