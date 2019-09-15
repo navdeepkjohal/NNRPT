@@ -5,7 +5,7 @@ Software Requirements:
 (b) Sparse package available here: http://sparse.pydata.org/en/latest/construct.html
 
 
-The paper corresponding to this code is available here: https://arxiv.org/abs/1909.04723
+This is the NNRPT model whose corresponding paper is available here: https://arxiv.org/abs/1909.04723
 
 
 The implementation is according to the convolutional neural network conversion as explained in the discussion section of the paper.
