@@ -5,6 +5,12 @@ Software Requirements:
 (b) Sparse package available here: http://sparse.pydata.org/en/latest/construct.html
 
 
+The paper corresponding to this code is available here: https://arxiv.org/abs/1909.04723
+
+
+The implementation is according to the convolutional neural network conversion as explained in the discussion section of the paper.
+
+
 In order to run this code, you first need to generate the lifted random walks and followed by
 grounding them during roll out of proposed NNRPT network: 
 
