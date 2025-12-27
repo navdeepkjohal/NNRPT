@@ -23,3 +23,22 @@ Please note that you do not need to call the grounded random walk code, NNRPT co
   python Lifted_R_NN_Network.py "path/to/input/file" "targetpredicate"
   
   please contact me for further questions at navdeepkjohal@gmail.com
+
+## Citation
+Please cite our paper as:
+```bash
+@inproceedings{yang-etal-2023-coupling,
+    title = "Coupling Large Language Models with Logic Programming for Robust and General Reasoning from Text",
+    author = "Yang, Zhun  and
+      Ishay, Adam  and
+      Lee, Joohyung",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-acl.321",
+    doi = "10.18653/v1/2023.findings-acl.321",
+    pages = "5186--5219"
+}
+```
