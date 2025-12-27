@@ -2,7 +2,7 @@
 
 (a) Tensorflow 
 
-(b) Sparse package available here: http://sparse.pydata.org/en/latest/construct.html
+(b) Sparse package available [here](http://sparse.pydata.org/en/latest/construct.html)
 
 
 This is the NNRPT model whose corresponding paper is available [here](https://arxiv.org/abs/1909.04723)
